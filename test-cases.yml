@@ -1,1 +1,34 @@
+---
+- summary: |
+    Пользователь может зарегистрироваться на https://codebattle.hexlet.io/ через GitHub
+  requirement: |
+    При наличие аккаунта на гитхабе пользователь может зарегистрироваться через него на https://codebattle.hexlet.io/
+  prerequisites: |
+    Необходимо быть зарегистрированным на GitHub
+  test-data: |
+    Тестовые данные не используются
+  steps:
+    - Открываем главную страницу проекта https://codebattle.hexlet.io/
+    - Нажимаем кнопку Sign Up в шапке сайта
+    - Нажимаем кнопку Sign up with Github
+    - Авторизуемся на открывшейся странице на гитхаб: Sign in to GitHub to continue to Codebattle
+    - Выдаем разрешения на доступ
+    - Открывается страница https://codebattle.hexlet.io/#lobby
+  expected-result: |
+    Пользователь должен попасть на https://codebattle.hexlet.io/#lobby . В шапке информация о пользователе совпадает с профилем на гитхаб
 
+- summary: |
+    Пользователь может авторизоваться на https://codebattle.hexlet.io/ через GitHub
+  requirement: |
+    Пользователь может авторизоваться через GitHub на https://codebattle.hexlet.io/
+  prerequisites:
+    Необходимо быть зарегистрированным на GitHub
+  test-data: |
+    Тестовые данные не используются
+  steps:
+    - Открываем главную страницу проекта https://codebattle.hexlet.io/
+    - Нажимаем кнопку Sign In в шапке сайта
+    - Нажимаем кнопку Sign in with Github
+    - Открывается страница https://codebattle.hexlet.io/#lobby
+  expected-result: |
+    Пользователь должен попасть на https://codebattle.hexlet.io/#lobby . В шапке информация о пользователе совпадает с профилем на гитхаб
