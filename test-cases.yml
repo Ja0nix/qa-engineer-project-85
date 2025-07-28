@@ -32,3 +32,35 @@
     - Открывается страница https://codebattle.hexlet.io/#lobby
   expected-result: |
     Пользователь должен попасть на https://codebattle.hexlet.io/#lobby . В шапке информация о пользователе совпадает с профилем на гитхаб
+
+- summary: |
+    Пользователь может зарегистрироваться на https://codebattle.hexlet.io/ через почту
+  requirement: |
+    Пользователь может зарегистрироваться на https://codebattle.hexlet.io/ через личную почту
+  prerequisites: |
+    Есть доступ к личной почте
+  test-data: |
+    Тестовые данные не используются
+  steps:
+    - Открываем главную страницу проекта https://codebattle.hexlet.io/
+    - Нажимаем кнопку Sign Up в шапке сайта
+    - Заполняем поля Nickname, Email, Password (from 6 to 16 characters), Password Confirmation валидными данными
+    - Открывается страница https://codebattle.hexlet.io/#lobby
+  expected-result: |
+    Пользователь должен попасть на https://codebattle.hexlet.io/#lobby . В шапке информация о пользователе совпадает с введенной на шаге 3.
+
+- summary: |
+    Пользователь может авторизоваться на https://codebattle.hexlet.io/ через почту
+  requirement: |
+    Пользователь может авторизоваться на https://codebattle.hexlet.io/ через личную почту
+  prerequisites:
+    Есть доступ к личной почте. Пользователь зарегистрирован через почту на сервисе.
+  test-data: |
+    Тестовые данные не используются
+  steps:
+    - Открываем главную страницу проекта https://codebattle.hexlet.io/
+    - Нажимаем кнопку Sign In в шапке сайта
+    - Заполняем поля Email, Password валидными данными
+    - Открывается страница https://codebattle.hexlet.io/#lobby
+  expected-result: |
+    Пользователь должен попасть на https://codebattle.hexlet.io/#lobby . В шапке информация о пользователе совпадает с указанной при регистрации
