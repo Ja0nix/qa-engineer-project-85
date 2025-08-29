@@ -1,0 +1,8 @@
+---
+- summary: |
+    Пользователь может зарегистрироваться на https://codebattle.hexlet.io/ через GitHub
+  status: pass
+
+- summary: |
+    Пользователь может авторизоваться на https://codebattle.hexlet.io/ через GitHub
+  status: pass
