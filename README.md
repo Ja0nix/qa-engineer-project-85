@@ -25,3 +25,11 @@ https://github.com/hexlet-codebattle/codebattle/wiki
 * Сайт должен быть удобным на мобильном устройстве
 * Сайт должен быть протестирован на совместимость с последними версиями браузеров
 * Сайт должен быть способен обрабатывать большое количество трафика (например, 1000 одновременных пользователей)
+
+
+Этапы тестирования
+----------------
+
+1. Знакомство с сервисом codebattle.hexlet.io
+2. Составление списка требований к работе интернет-магазина. Результат этапа: создан файл с функциональными и нефункциональными требованиями [requirements.yml](https://github.com/Ja0nix/qa-engineer-project-85/blob/main/requirements.yml)
+3. Проведение тест-анализа и составление текст-кейсов. Результат этапа: создан файл с тест-кейсами [test-cases.yml](https://github.com/Ja0nix/qa-engineer-project-85/blob/main/test-cases.yml). В отдельном файле тест-кейсы тестирования функционала начала новой игры, созданные в технике попарного тестирования [create_game_paiwise_testing\create_game_pairwise_test-cases.yml](https://github.com/Ja0nix/qa-engineer-project-85/blob/main/create_game_paiwise_testing\create_game_pairwise_test-cases.yml).
