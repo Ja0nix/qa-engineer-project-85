@@ -11,7 +11,7 @@
     - Открываем главную страницу проекта https://codebattle.hexlet.io/
     - Нажимаем кнопку Sign Up в шапке сайта
     - Нажимаем кнопку Sign up with Github
-    - Авторизуемся на открывшейся странице на гитхаб: Sign in to GitHub to continue to Codebattle
+    - Авторизуемся на открывшейся странице на гитхаб
     - Выдаем разрешения на доступ
     - Открывается страница https://codebattle.hexlet.io/#lobby
   expected-result: |
